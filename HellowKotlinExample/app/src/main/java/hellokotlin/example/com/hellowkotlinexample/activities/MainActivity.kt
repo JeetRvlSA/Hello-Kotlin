@@ -19,6 +19,7 @@ import java.io.IOException
 import java.util.*
 import android.widget.FrameLayout
 import hellokotlin.example.com.hellowkotlinexample.R
+import kotlin.collections.ArrayList
 
 
 class MainActivity : AppCompatActivity() {
@@ -32,6 +33,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         var enteredText = edtEnterNAme.text
+
+        var list = ArrayList<String>()
+
+        for (index in 0..8) {
+            list.add("index is $index")
+        }
+
 
         btnSubmit.setOnClickListener {
 

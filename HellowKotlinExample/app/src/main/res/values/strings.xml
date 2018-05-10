@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HellowKotlinExample</string>
+    <string name="please_wait">Please wait</string>
+    <string name="lbl_force_logout">Please login again!!</string>
+</resources>
